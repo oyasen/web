@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 340px;
+  height: 400px;
+}
+header{
+  background-color: blue;
+  padding-top: 20px;
+  text-align: center;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -80px;
+}
+nav ul a{
+  color: white;
+  background-color: black;
+  padding: 20px;
+
+  text-decoration: none;
+  width: 100%;
+}
+nav ul a:hover{
+  color: black;
+  background-color: white;
+}
+.product{
+  display: flex;
+  height: 400px;
+  margin: 0px 300px;
+  padding-left: 50px;
+
+  margin-left: 10px;
+  margin-bottom: -100px;
+  width: 600px;
+  max-width: 600px;
+
+}
+
+.products{
+  display: flex;
+  transition: 1s;
+
+}
+.buy{
+  margin: 100px 100px;
+  margin-right: 0;
+}
+footer{
+  background-color: blue;
+
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+footer p{
+
+  margin: 0px 50px;
+}
+.container{
+
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.nav img{
+  width: 60px;
+  height: 70px;
+}
+.cart{
+margin-left: 100px;
+  margin-right: 130px;
+  margin-top: 50px;
+
+  
+}
+.cart table{
+  border-spacing: 50px;
+  border: 1px solid black;
+}
+.big
+{
+  display: flex;
+  margin: 0px 100px;
+  margin-left: 30px;
+}
+.bigproducts{
+  border: 1px solid black;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}

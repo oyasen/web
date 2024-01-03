@@ -1,0 +1,19 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  color: blue;
+  background-color: green;
+  opacity: 0.7;
+}
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+table{
+  border: 1px solid black;
+  border-spacing: 20px;
+  text-align: center;
+}

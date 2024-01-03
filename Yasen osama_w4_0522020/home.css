@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: blue;
+  padding-top: 20px;
+  text-align: center;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -80px;
+}
+nav ul a{
+  color: white;
+  background-color: black;
+  padding: 20px;
+
+  text-decoration: none;
+  width: 100%;
+}
+nav ul a:hover{
+  color: black;
+  background-color: white;
+}
+.product{
+  display: flex;
+  height: 400px;
+  margin: 0px 150px;
+  border: 1px solid black;
+}
+.products{
+  display: flex;
+  transition: 1s;
+
+}
+.buy{
+  margin: 200px 20px;
+}
+footer{
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+footer p{
+
+  margin: 0px 50px;
+}
+.container{
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.nav img{
+  width: 60px;
+  height: 70px;
+}

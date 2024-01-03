@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="form">
+  <form id="login" class="">
+    <h1>login form</h1>
+    <div class="input">
+      <p>username</p>
+      <input id="luser" type="text" placeholder="username">
+    </div>
+    <div class="input">
+      <p>password</p>
+      <input id="lpass" type="text" placeholder="password">
+    </div>
+    <div class="but">
+      <button onclick="forg()" type="button">forget password</button>
+    </div>
+    <div class="but">
+      <button onclick="login()" type="button">login</button>
+    </div class="but">
+<div class="but">    
+  <span>dont have an account?</span><button onclick="sign()" type="button">signup</button>
+</div>
+
+  </form>
+  <form id="signup" class="hidden" >
+    <h1>signup form</h1>
+    <div class="input">
+      <p>username</p>
+      <input id="suser" type="text" placeholder="username">
+    </div>
+    <div class="input">
+      <p>password</p>
+      <input id="spass" type="text" placeholder="password">
+    </div>
+    <div class="input">
+      <p>age</p>
+      <input id="sage" type="text" placeholder="age">
+    </div>
+    <div class="input">
+      <p>gender</p>
+      <label>male<input type="radio" placeholder="password" name="gender" value="male"></label>
+      <label>female<input type="radio" placeholder="password" name="gender" value="female"></label>
+    </div>
+    <div class="input">
+      <p>phone number</p>
+      <input id="sphone" type="text" placeholder="phone number">
+    </div>
+    <div class="but">
+      <button onclick="signupp()" type="button">signup</button>
+    </div class="but">
+<div class="but">    
+  <span>already have an account?</span><button onclick="logn()" type="button">login</button>
+</div>
+
+  </form>
+  <form id="forget" class="hidden">
+    <h1>forget password form</h1>
+    <div class="input" style="margin-left: 60px;">
+      <p>username</p>
+      <input id="fuser" type="text" placeholder="username">
+    </div>
+    <div class="input" style="margin-left: 60px;">
+      <p>password</p> 
+      <input id="fpass" type="text" placeholder="password">
+    </div>
+    <div class="but">
+      <button onclick="forgett()" type="button">update</button>
+    </div>
+
+  </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
